@@ -2,6 +2,7 @@
   "name": "guestbook",
   "version": "1.0.0",
   "description": "Hi Guest, We are making a guest book app for you using latest backend technologies like : node, express and EJS.",
+  "private":true,
   "main": "app.js",
   "scripts": {
     "start":"nodemon app.js"
