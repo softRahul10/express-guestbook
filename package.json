@@ -1,0 +1,30 @@
+{
+  "name": "guestbook",
+  "version": "1.0.0",
+  "description": "Hi Guest, We are making a guest book app for you using latest backend technologies like : node, express and EJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Backend",
+    "Project",
+    "Node",
+    "Project",
+    "Express",
+    "Project",
+    "EJS",
+    "Project"
+  ],
+  "author": "Rahul Keshri (soft_rahul)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
