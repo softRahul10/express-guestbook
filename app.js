@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express(); // It will return us a function(req Handler)
 
-app.set('view-engine', 'ejs');
+app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
 
 var entries = [];
@@ -36,8 +36,8 @@ app.post("/new-entry", function (req, res) {
 });
 app.use(function (req, res) {
     res.status(404).render("404");
-}); 
+});
 
-http.createServer(app).listen(3000,()=>{
+http.createServer(app).listen(3000, () => {
     console.log("Server listening on port 3000");
 });
