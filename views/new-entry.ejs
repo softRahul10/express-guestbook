@@ -1,16 +1,16 @@
 <%- include('./header.ejs') %>
 <h2>Write a new entry</h2>
-<form method="POST" role="form">
-  <div class="form-group">
+<form method="POST" action="/new-entry">
+  <div class="form-group mt-2">
     <label for="title">Title</label>
     <input type="text" class="form-control" id="title" name="title" placeholder="Entry title" required>
   </div>
-  <div class="form-group">
+  <div class="form-group mt-2">
     <label for="content">Entry text</label>
     <textarea class="form-control" id="body" name="body" placeholder="Love Express! It’s a great tool for
   building websites." rows="3" required></textarea>
   </div>
-  <div class="form-group">
+  <div class="form-group mt-2">
     <input type="submit" value="Post entry" class="btn btn-primary">
   </div>
 </form>
