@@ -35,13 +35,12 @@ This is a simple guestbook application built using Node.js, Express, and the EJS
     npm install
     ```
 
-4. Set up your database and configure the connection in the `config.js` file.
 
-5. Start the application:
+4. Start the application:
 
     ```bash
     npm start
     ```
 
-6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the guestbook.
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the guestbook.
 
